@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "a-simple-rag-test"
+version = "0.1.0"
+description = "Some test app for rag"
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+streamlit = "^1.30.0"
+watchdog = "^3.0.0"
+ollama = "^0.1.5"
+chromadb = "^0.4.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
